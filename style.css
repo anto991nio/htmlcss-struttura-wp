@@ -13,7 +13,7 @@ header{
 }
 
 .container{
-    height: 350px;
+    height: 550px;
 
 }
 
@@ -29,6 +29,13 @@ header{
     max-width: 1200px;
     margin: auto;
     margin-top: 20px;
+
+}
+
+.two::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 footer{
@@ -41,4 +48,30 @@ footer{
 
 div > *{
     background-color: rgb(171, 207, 231 );
+}
+
+.primo{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.secondo{
+    height: 420px;
+    width: 20%;
+    float: left;
+    margin-right: 3%;
+}
+
+.terzo  {
+    height: 420px;
+    width: 54%;
+    float: left;
+    margin-right: 3%;
+}
+
+.quarto{
+    height: 420px;
+    width: 20%;
+    float: left;
 }
