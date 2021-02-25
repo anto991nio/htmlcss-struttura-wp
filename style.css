@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(229, 121, 230);
+    height: 100px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container{
+    height: 350px;
+
+}
+
+.one{
+    background-color: rgb(225, 214, 122);
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.two{
+    background-color: rgb(1, 134, 253);
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: rgb(136, 1, 254);
+    height: 50px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+div > *{
+    background-color: rgb(171, 207, 231 );
+}
